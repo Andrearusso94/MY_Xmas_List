@@ -6,7 +6,7 @@
 body{
     background-color: rgb(126, 193, 219);
 }
-
+/*Section Header*/
 .header-top{
     background-color: #120945;
     background-image: url(/assets/img/lights.png);
@@ -26,4 +26,35 @@ h1{
 }
 h2{
     color:goldenrod
+}
+.total-slot{
+    font-size: 1.75rem;
+    font-weight: 600;
+    
+}
+
+/*Section Main*/
+
+ul{
+    padding-left: 0;
+}
+
+.gift{
+    border: 3px solid white;
+    border-radius: 10px;
+    
+}
+.gift-info{
+    width: 70%;
+    padding: 8px;
+}
+.gift-price{
+    width: 20%;
+    padding: 8px;
+    font-weight: 700;
+}
+.gift-button{
+    border: none;
+    background-color: white;
+    width: 10%;
 }

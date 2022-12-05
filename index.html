@@ -14,15 +14,27 @@
 </head>
 
 <body>
-  <header>
+  <header class="sticky-top">
   <div class="header-top">
     <h1 class="py-2 px-3">Xmas List</h1>
   </div>
   <div class="header-bottom">
-    <h2 class="text-center py-1">Spesa Totale:</h2>
+    <h2 class="text-center py-1">Spesa Totale: <span class="total-slot py-2 mx-1">79.00€</span></h2> 
   </div>
   </header>
-  <main>
+  <main class="p-2">
+<!--list-->
+
+    <ul class="gift-list">
+        <li class="gift d-flex">
+            <div class="gift-info">
+                <h3>Andrea</h3>
+                <p>biglietti cinema</p>
+            </div>
+            <div class="gift-price">16.00€</div>
+            <button class="gift-button">❌</button>
+        </li>
+    </ul>
 
   </main>
   <footer>
