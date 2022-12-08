@@ -10,11 +10,26 @@ body{
 .header-top{
     background-color: #120945;
     background-image: url(/assets/img/lights.png);
-    height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+.counter-block {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+.counter-block:last-child {
+    color: #F2AD41;
+}
+.counter-block-number {
+    font-size: 26px;
+}
+.counter-block-label {
+    font-size: 18px;
+}
+
 h1{
     color:goldenrod;
 }
@@ -94,25 +109,4 @@ width: 100%;
     padding-right: 6px;
 }
 
-.panel {
-    background-color: #120945;
-    border-radius: 8px;
-    background-image: url(/assets/img/lights.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-.counter-block {
-    color: #ffffff;
-    text-align: center;
-    font-weight: 600;
-}
-.counter-block:last-child {
-    color: #F2AD41;
-}
-.counter-block-number {
-    font-size: 22px;
-}
-.counter-block-label {
-    font-size: 14px;
-}
+
